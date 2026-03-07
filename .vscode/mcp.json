@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "FastMCP": {
+            "url": "https://gofastmcp.com/mcp",
+            "type": "http"
+        }
+    },
+    "inputs": []
+}
