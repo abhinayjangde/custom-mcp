@@ -18,6 +18,16 @@ def greet(name: str) -> str:
     """Greet a person."""
     return f"Hello, {name}!"
 
-if __name__ == "__main__":
-    # mcp.run()
+@mcp.tool
+def divide(a: float, b: float) -> float:
+    """Divide two numbers."""
+    return a / b
+
+def mcp_main():
+    # HTTP server or stdio, your choice
     mcp.run(transport="http", host="0.0.0.0", port=8000)
+    # or just: mcp.run()
+
+
+if __name__ == "__main__":
+    mcp_main()
