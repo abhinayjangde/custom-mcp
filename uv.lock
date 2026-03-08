@@ -257,12 +257,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "fastapi", extra = ["standard"] },
     { name = "fastmcp" },
+    { name = "perfect" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.132.0" },
     { name = "fastmcp", specifier = ">=3.1.0" },
+    { name = "perfect", specifier = ">=0.0.1" },
 ]
 
 [[package]]
@@ -875,6 +877,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/72/55/b748445cb4ea6b125626f15379be7c96d1035d4fa3e8fee362fa92298abf/pathable-0.5.0.tar.gz", hash = "sha256:d81938348a1cacb525e7c75166270644782c0fb9c8cecc16be033e71427e0ef1", size = 16655, upload-time = "2026-02-20T08:47:00.748Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/52/96/5a770e5c461462575474468e5af931cff9de036e7c2b4fea23c1c58d2cbe/pathable-0.5.0-py3-none-any.whl", hash = "sha256:646e3d09491a6351a0c82632a09c02cdf70a252e73196b36d8a15ba0a114f0a6", size = 16867, upload-time = "2026-02-20T08:46:59.536Z" },
+]
+
+[[package]]
+name = "perfect"
+version = "0.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e4/ce/e489e7877e6c78ee9fc3e8b1487ac71adaeb65472050199d932e06f849fc/perfect-0.0.1.tar.gz", hash = "sha256:80cf69c13ee92114106591b56d38e579567b4c571de92f8370c5e23a82008477", size = 4060, upload-time = "2019-11-30T01:46:05.027Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/14/47/866491e108defb0a173231b9c95bd39747d16e0bb7da2f70a311236d6756/perfect-0.0.1-py3-none-any.whl", hash = "sha256:eb6eab0a9dce012aa80e21f0ad7d429e3edb106de0b2d7b85c99e8cd10c5c5b3", size = 4348, upload-time = "2019-11-30T01:46:02.711Z" },
 ]
 
 [[package]]
